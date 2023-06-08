@@ -1,82 +1,69 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LaNiTrO</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Mi proyecto HTML</title>
-    <link rel="stylesheet" href="estilo.css">
-</head>
-
-<body>
-
+  <body>
     <header>
-        <nav class="navbar">
-            <a href="#" class="logo">
-                <img src="./img/Group 1.png" alt="Logo">
-            </a>
-            <ul class="nav-links">
-                <li><a href="lanitro.html">LANITRO </a></li>
-                <li><a href="#">ENTRENAMIENTO </a></li>
-                <li><a href="#">UNBREAKABLE </a></li>
-            </ul>
-        </nav>
+      <nav class="nav__header">
+        <li><img src="./img/logo.png" class="logo" alt="" /></li>
+        <li><a href="../lanitro.html">LANITRO</a></li>
+        <li><a href="#">ENTRENAMIENTO</a></li>
+        <li><a href="#">UNBREAKABLE</a></li>
+      </nav>
+      <nav class="nav_container">
+        <div class="menu">
+          <h1>Revisa información relevante para ti</h1>
+        </div>
+        <div class="container___nav2">
+          <a href="#">cédula de identidad</a>
+          <img src="./img/flag.png" alt="" />
+        </div>
+      </nav>
     </header>
 
-
     <main>
-        <div class="tomato-bar">
-            <div class="content">
-                <div class="text">
-                    <p>Revisa información relevante para ti</p>
-                </div>
-                <div class="image">
-                    <img src="./img/Group 4.png" alt="Imagen de ejemplo">
-                </div>
-            </div>
-        </div>
+      <div class="card">
+        <h2 class="number" id="counter">63</h2>
+        <h2 class="days">DÍAS</h2>
+        <br />
+        <h2 class="title">BIENVENIDOS A LANITRO</h2>
+        <br />
+        <br />
+        <button class="orange-button" id="registrationBtn">
+          REGISTRO A LANITRO
+          <br />
+        </button>
+        <p class="description">
+          Somos apasionados por las carreras de obstáculos en el Ecuador.
+          Disfruta y vive la EXPERIENCIA NITRO “Solo faltas tú”
+        </p>
+      </div>
+    </main>
 
-        <section class="section">
-            <div class="image-container">
-                <img src="./img/image 1.png" alt="Imagen" class="card-image">
-                <div class="card">
-                    <h2 class="number" id="counter">63</h2>
-                    <h2 class="days">DÍAS</h2>
-                    <h2 class="title">BIENVENIDOS A LANITRO</h2>
-                    <button class="orange-button" id="registrationBtn">REGISTRO A LANITRO</button>
-                    <p class="description">Somos apasionados por las carreras de obstáculos en el Ecuador. Disfruta y
-                        vive la
-                        EXPERIENCIA NITRO “Solo faltas tú”</p>
-                </div>
-            </div>
-        </section>
+    <footer>
+      <div class="footer-container">
+        <p>
+          <u>LANITRO</u> es una carrera de OCR exclusiva de NITROOCR | Síguenos
+          en nuestras redes sociales
+        </p>
+        <nav class="social-icons">
+          <a href="#"
+            ><img src="./img/icos/bxl-facebook-square.svg" alt="facebook" /></a
+          ><a href="#"
+            ><img src="./img/icos/bxl-instagram.svg" alt="instagram" /></a
+          ><a href="#"><img src="./img/icos/bxl-tiktok.svg" alt="titok" /></a>
+        </nav>
+        <br />
+      </div>
+    </footer>
 
-
-        <footer>
-            <div class="footer-container">
-                <p class="footer-text">LANITRO es una carrera de OCR exclusiva de NITROOCR | Síguenos en nuestras redes
-                    sociales
-                </p>
-                <div class="social-icons">
-                    <a href="#" class="icon"><i class='bx bxl-facebook'></i></a>
-                    <a href="#" class="icon"><i class='bx bxl-instagram'></i></a>
-                    <a href="#" class="icon"><i class='bx bxl-tiktok'></i></a>
-
-                </div>
-            </div>
-        </footer>
-
-
-        <script src="main.js" async defer></script>
-        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-
-</body>
-
+    <script src="main.js" async defer></script>
+  </body>
 </html>
