@@ -1,0 +1,176 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 25% 50%;
+  justify-content: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-item {
+  padding: 20px;
+  text-align: center;
+  color: var(--wh-txt);
+}
+
+.column1 {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.column1 img {
+  width: 2rem;
+  height: auto;
+}
+
+.hours {
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+.column2 {
+  font-size: 18px;
+}
+
+.column2 {
+  font-size: 30px;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list li:nth-child(1)::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-image: url("../../assets/redball.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 1rem;
+}
+
+.list li:nth-child(2)::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-image: url("../../assets/yellowball.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 1rem;
+}
+
+.list li:nth-child(3)::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-image: url("../../assets/greenball.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 1rem;
+}
+
+.list li:nth-child(4)::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-image: url("../../assets/redball.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 1rem;
+}
+
+.list li:nth-child(5)::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-image: url("../../assets/redball.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 1rem;
+}
+
+.list li:nth-child(6)::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-image: url("../../assets/redball.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 1rem;
+}
+
+.list li:nth-child(7)::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-image: url("../../assets/redball.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 1rem;
+}
+
+.list li:nth-child(8)::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-image: url("../../assets/redball.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 1rem;
+}
+
+.list-date {
+  list-style-type: none;
+}
+
+.list-date li:nth-child(even)::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-image: url("../../assets/redball.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 1rem;
+}
+
+.list-date li:nth-child(odd)::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-image: url("../../assets/redball.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 1rem;
+}
+
+.column3 {
+  margin-top: 1rem;
+  text-align: justify;
+  font-size: 20;
+}
+
+.title {
+  font-weight: 700;
+  size: 30px;
+}
+
+.mente {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.column1 img {
+  width: 54px;
+  height: 63.47px;
+}

@@ -1,0 +1,102 @@
+header {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav__header {
+  display: flex;
+  justify-content: center;
+  align-content: baseline;
+  align-items: center;
+  width: 100%;
+
+  margin-top: 1rem;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.logo {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.nav__header li {
+  list-style-type: none;
+  margin-left: 1rem;
+}
+
+.nav__header a {
+  text-decoration: none;
+  color: var(--wh-txt);
+}
+
+.activate {
+  color: var(--orange) !important;
+}
+
+.nav_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  font-size: 18px;
+  background-color: var(--orange);
+  margin-bottom: 1rem;
+}
+
+.container___nav2 img {
+  height: 1.8rem;
+  position: absolute;
+  right: 0;
+}
+.menu h1 {
+  color: var(--wh-txt);
+  text-align: end;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.menu a:hover {
+  opacity: 0.75;
+  transition: 0.3s ease;
+  transition: ease-in-out;
+}
+
+/* ---------------------------- */
+
+.menu a {
+  color: var(--wh-txt);
+  text-decoration: none;
+  margin-left: 20px;
+  line-height: 24.38px;
+}
+
+.menu a:hover {
+  opacity: 0.75;
+  transition: 0.3s ease;
+  transition: ease-in-out;
+}
+
+.container___nav2 {
+  display: flex;
+  justify-self: start;
+}
+
+.container___nav2 a {
+  display: inline-block;
+  color: var(--wh-txt);
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: var(--bg-color);
+  padding: 5px 2rem;
+  border-radius: 50px;
+}

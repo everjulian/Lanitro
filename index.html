@@ -1,45 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LaNiTrO</title>
-    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="./style/style.css" />
+    <title>lanitro</title>
+    <link rel="stylesheet" href="./styles/partials/home.css" />
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+    <script src="assets/include_html.js"></script>
   </head>
-
   <body>
+    <div data-include="assets/flag_nav.html"></div>
     <header>
-      <nav class="nav__header">
-        <li><img src="./img/logo.png" class="logo" alt="" /></li>
-        <li><a href="../lanitro.html">LANITRO</a></li>
-        <li><a href="#">ENTRENAMIENTO</a></li>
-        <li><a href="#">UNBREAKABLE</a></li>
-      </nav>
       <nav class="nav_container">
         <div class="menu">
           <h1>Revisa información relevante para ti</h1>
         </div>
         <div class="container___nav2">
           <a href="#">cédula de identidad</a>
-          <img src="./img/flag.png" alt="" />
+          <img src="./assets/flag.png" alt="" />
         </div>
       </nav>
     </header>
 
     <main>
       <div class="card">
-        <h2 class="number" id="counter">63</h2>
-        <h2 class="days">DÍAS</h2>
-        <br />
+        <p id="countdown"></p>
+
         <h2 class="title">BIENVENIDOS A LANITRO</h2>
-        <br />
         <br />
         <button class="orange-button" id="registrationBtn">
           REGISTRO A LANITRO
-          <br />
         </button>
+
         <p class="description">
           Somos apasionados por las carreras de obstáculos en el Ecuador.
           Disfruta y vive la EXPERIENCIA NITRO “Solo faltas tú”
@@ -54,16 +47,17 @@
           en nuestras redes sociales
         </p>
         <nav class="social-icons">
-          <a href="#"
-            ><img src="./img/icos/bxl-facebook-square.svg" alt="facebook" /></a
-          ><a href="#"
-            ><img src="./img/icos/bxl-instagram.svg" alt="instagram" /></a
-          ><a href="#"><img src="./img/icos/bxl-tiktok.svg" alt="titok" /></a>
+          <a href="#">
+            <img src="./assets/bxl-facebook-square.svg" alt="facebook" /> </a
+          ><a href="#">
+            <img src="./assets/bxl-instagram.svg" alt="instagram" />
+          </a>
+          <a href="#">
+            <img src="./assets/bxl-tiktok.svg" alt="tiktok" />
+          </a>
         </nav>
-        <br />
       </div>
     </footer>
-
-    <script src="main.js" async defer></script>
+    <script src="./assets/js/main.js" type="module"></script>
   </body>
 </html>

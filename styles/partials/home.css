@@ -104,6 +104,10 @@ header {
   text-align: center;
 }
 
+.card * {
+  margin-bottom: 1rem;
+}
+
 .card h2.title {
   width: 100%;
   height: 118px;
@@ -112,7 +116,7 @@ header {
   font-weight: 900;
   font-size: 48px;
   line-height: 59px;
-  color: #ffffff;
+  color: var(--wh-txt);
   margin: 0;
   margin-bottom: 20px;
 }
@@ -125,19 +129,9 @@ header {
   font-weight: 300;
   font-size: 24px;
   line-height: 29px;
-  color: #ffffff;
+  color: var(--wh-txt);
   margin: 0;
   margin-bottom: 20px;
-}
-
-.card h2.number {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 61px;
-  color: #ffffff;
-  margin: 0;
 }
 
 .card h2.days {
@@ -146,23 +140,23 @@ header {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  color: #ffffff;
+  color: var(--wh-txt);
   margin: 0;
 }
 
 .card button.orange-button {
-  background-color: orange;
-  color: white;
+  background-color: var(--orange);
+  color: var(--wh-txt);
   border: none;
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 50px;
   font-size: 16px;
   cursor: pointer;
   margin-top: -20px;
 }
 
 .card button.orange-button:hover {
-  background-color: darkorange;
+  opacity: 0.75;
 }
 .card-image {
   position: relative;
@@ -199,7 +193,7 @@ main {
   height: 90vh;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("../img/bg_home.png");
+  background-image: url("../../assets/bg_home.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -226,7 +220,7 @@ footer {
   display: inline-block;
   width: 55%;
   height: 1rem;
-  background-color: #ea601a;
+  background-color: var(--orange);
   text-align: center;
   text-decoration: none;
   bottom: 4px;
@@ -282,7 +276,7 @@ footer {
   width: 90%;
   margin-top: 0.5rem;
   text-align: center;
-  color: #ffffff;
+  color: var(--wh-txt);
   padding: 20px;
   font-size: 16px;
   line-height: 20px;
@@ -292,6 +286,7 @@ footer a {
   font-size: 24px;
   margin-right: 10px;
   transition: color 0.3s ease;
+  text-decoration: none;
 }
 
 .icon:last-child {
@@ -321,4 +316,11 @@ footer a {
     width: 90%;
     left: 5%;
   }
+}
+
+a:hover {
+  opacity: 0.75;
+}
+a:active {
+  color: var(--orange);
 }
