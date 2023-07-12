@@ -15,10 +15,11 @@ footer {
 
 .column-1 {
   flex-basis: 30%;
+  
 }
 .column-1 a {
   display: inline-block;
-  width: 55%;
+  width: 70%;
   height: 2rem;
   background-color: #ea601a;
   text-align: center;
@@ -98,5 +99,25 @@ footer {
   }
   100% {
     margin-left: -300%;
+  }
+}
+
+
+@media only screen and (max-width: 1012px){
+  .column-1 a{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 870px){
+  footer{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    text-align: center;
+  }
+  .column-1 a{
+    font-size: 9px;
   }
 }
