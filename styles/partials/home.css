@@ -199,7 +199,6 @@ main {
   background-size: cover;
 }
 
-
 footer {
   display: flex;
   gap: 10px;
@@ -307,13 +306,9 @@ a:active {
   color: var(--orange);
 }
 
-
-
 /*estilos para que sea responsivo*/
 
-
 @media only screen and (max-width: 950px) {
-
   .navbar {
     display: flex;
     flex-direction: column;
@@ -325,18 +320,15 @@ a:active {
     align-items: center;
     height: 12vh;
   }
-  .img1{
+  .img1 {
     display: none;
   }
-  .card{
+  .card {
     margin-top: 70px;
   }
-
 }
 
 @media only screen and (max-width: 900px) {
-  
-
   .nav-links {
     margin-top: 10px;
   }
@@ -369,25 +361,23 @@ a:active {
   }
 
   main {
-    background-size:cover;
+    background-size: cover;
   }
-
 }
 
 @media only screen and (max-width: 655px) {
-  .card{
+  .card {
     margin-top: 75px;
   }
 }
 
 @media only screen and (max-width: 610px) {
-  .card{
+  .card {
     margin-top: 100px;
   }
 }
 
 @media only screen and (max-width: 450px) {
-
   .menu h1 {
     color: var(--wh-txt);
     text-align: end;
@@ -395,24 +385,22 @@ a:active {
     font-style: italic;
     font-weight: 500;
   }
-  
+
   .menu a:hover {
     opacity: 0.75;
     transition: 0.3s ease;
     transition: ease-in-out;
   }
-  .card{
+  .card {
     margin-top: 100px;
   }
-
 }
 
 @media only screen and (max-width: 410px) {
-  .card{
+  .card {
     margin-top: 140px;
   }
 }
-
 
 @media only screen and (max-width: 400px) {
   .card h2.title {
@@ -438,7 +426,7 @@ a:active {
 }
 
 @media only screen and (max-width: 335px) {
-  .card{
+  .card {
     margin-top: 130px;
   }
   .card p.description {
@@ -447,13 +435,7 @@ a:active {
   .card h2.title {
     font-size: 22px;
   }
-  .menu h1{
+  .menu h1 {
     font-size: 15px;
   }
 }
-
-
-
-
-
-

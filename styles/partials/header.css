@@ -1,9 +1,7 @@
-
 header {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .nav__header {
@@ -41,7 +39,6 @@ header {
   color: var(--orange) !important;
 }
 
-
 /*estilos del header*/
 /* Estilos base */
 .nav_container {
@@ -54,12 +51,6 @@ header {
   font-size: 18px;
   background-color: var(--orange);
   margin-bottom: 1rem;
-}
-
-.container___nav2 img {
-  height: 1.8rem;
-  position: absolute;
-  right: 0;
 }
 
 .menu h1 {
@@ -104,22 +95,22 @@ header {
     flex-direction: column;
     height: auto;
   }
-  
+
   .menu {
     margin-bottom: 1rem;
   }
-  
+
   .container___nav2 {
     position: relative;
     margin-top: -2px;
   }
-  
+
   .container___nav2 img {
     position: static;
     margin-left: 0.5rem;
   }
-  
-  .menu a{
+
+  .menu a {
     margin: 0;
     padding: 10px;
     font-size: 16px;
@@ -131,7 +122,5 @@ header {
     font-size: 16px;
     line-height: 20px;
     margin-top: -10px;
-  
   }
 }
-
